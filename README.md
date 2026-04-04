@@ -2,7 +2,7 @@
 
 > My solutions to StrataScratch SQL problems — focused on real-world, interview-style data questions.
 
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-1-blue)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-2-blue)
 ![Platform](https://img.shields.io/badge/Platform-StrataScratch-orange)
 ![Language](https://img.shields.io/badge/Language-SQL-lightgrey)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
@@ -22,13 +22,13 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 | Topic             | Status           |
 |-------------------|------------------|
 | SELECT            | ✅ Done          |
-| Joins             | ✅ Done          |
+| JOIN              | ✅ Done          |
 | Aggregations      | 🔄 In Progress   |
 | Subqueries        | 🔄 In Progress   |
-| Window Functions  | ⏳ Upcoming      |
-| CASE Statements   | ⏳ Upcoming      |
+| Window Functions  | 🔄 In Progress   |
+| CASE Statements   | 🔄 In Progress   |
 | CTEs              | ⏳ Upcoming      |
-| Date & Time       | ⏳ Upcoming      |
+| Date & Time       | 🔄 In Progress   |
 
 ---
 
@@ -36,7 +36,8 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 
 | # | Problem ID | Problem Name | Difficulty | Topic | Solution |
 |---|------------|--------------|------------|-------|----------|
-| 1 | 10087 | Find all posts which were reacted to with a heart | Easy | SELECT + Joins | [View](./10087_find_posts_with_heart.sql) |
+| 1 | 10087 | Find all posts which were reacted to with a heart | Easy | SELECT, JOIN | [View](./10087_find_posts_with_heart.sql) |
+| 2 | 10352 | Users By Average Session Time | Medium | Aggregation, CASE, Date | [View](./10352_users_by_avg_session_time.sql) |
 
 ---
 
@@ -44,39 +45,45 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 
 ```
 stratascratch-sql-solutions/
-│
 ├── 10087_find_posts_with_heart.sql
+├── 10352_users_by_avg_session_time.sql
 ├── README.md
 ```
 
-> Each `.sql` file contains the problem description (as a comment), the approach, and the final query.
+> Each `.sql` file includes:
+> - Problem description  
+> - Approach explanation  
+> - Final optimised query  
 
 ---
 
 ## 💡 My Approach
 
-For each problem I follow a consistent structure:
+For each problem, I follow a structured workflow:
 
-1. **Understand** — Read the problem and identify what's being asked
-2. **Plan** — Decide which SQL concepts apply (joins, aggregations, filters, etc.)
-3. **Write** — Write a clean, readable query
-4. **Optimise** — Refactor for efficiency where possible
-5. **Document** — Add comments explaining the logic
+1. **Understand** → Identify the business problem  
+2. **Plan** → Choose the right SQL concepts (JOIN, GROUP BY, etc.)  
+3. **Write** → Build a clean and readable query  
+4. **Optimise** → Improve performance and logic  
+5. **Document** → Add clear explanations for learning & revision  
 
 ---
 
 ## 🎯 Goal
 
-Solve a wide range of StrataScratch SQL problems across all difficulty levels and topics — and build strong, interview-ready SQL skills for data analyst roles.
+Solve a wide range of StrataScratch SQL problems across all difficulty levels and topics.
 
-**Target:** 100 problems ✅
+**Target:** 100 problems  
+**Focus:** Real-world analytics + interview readiness  
 
 ---
 
 ## 🔗 Connect
 
-If you're also practising SQL or preparing for data roles, let's connect!
+If you're also practising SQL or preparing for data roles, let's connect:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sourav%20Mukherjee-blue?logo=linkedin)](https://www.linkedin.com/in/mukherjeesourav687)
 
-> "Consistent learning, one query at a time." 🚀
+---
+
+> Consistent learning, one query at a time 🚀
