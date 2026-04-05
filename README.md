@@ -2,7 +2,7 @@
 
 > My solutions to StrataScratch SQL problems — focused on real-world, interview-style data questions.
 
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-2-blue)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-3-blue)
 ![Platform](https://img.shields.io/badge/Platform-StrataScratch-orange)
 ![Language](https://img.shields.io/badge/Language-SQL-lightgrey)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
@@ -38,6 +38,7 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 |---|------------|--------------|------------|-------|----------|
 | 1 | 10087 | Find all posts which were reacted to with a heart | Easy | SELECT, JOIN | [View](./10087_find_posts_with_heart.sql) |
 | 2 | 10352 | Users By Average Session Time | Medium | Aggregation, CASE, Date | [View](./10352_users_by_avg_session_time.sql) |
+| 3 | 10285 | Acceptance Rate By Date | Medium | JOIN, Aggregation | [View](./10285_acceptance_rate_by_date.sql) |
 
 ---
 
@@ -47,6 +48,7 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 stratascratch-sql-solutions/
 ├── 10087_find_posts_with_heart.sql
 ├── 10352_users_by_avg_session_time.sql
+├── 10285_acceptance_rate_by_date.sql
 ├── README.md
 ```
 
