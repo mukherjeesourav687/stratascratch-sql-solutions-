@@ -2,7 +2,7 @@
 
 > My solutions to StrataScratch SQL problems — focused on real-world, interview-style data questions.
 
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-4-blue)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-5-blue)
 ![Platform](https://img.shields.io/badge/Platform-StrataScratch-orange)
 ![Language](https://img.shields.io/badge/Language-SQL-lightgrey)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
@@ -27,7 +27,7 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 | Subqueries        | 🔄 In Progress   |
 | Window Functions  | 🔄 In Progress   |
 | CASE Statements   | 🔄 In Progress   |
-| CTEs              | ⏳ Upcoming      |
+| CTEs              | 🔄 In Progress   |
 | Date & Time       | 🔄 In Progress   |
 
 ---
@@ -40,6 +40,7 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 | 2 | 10299 | Finding Updated Records | Easy | Aggregation, JOIN | [View](./10299_finding_updated_records.sql) |
 | 3 | 10285 | Acceptance Rate By Date | Medium | JOIN, Aggregation | [View](./10285_acceptance_rate_by_date.sql) |
 | 4 | 10352 | Users By Average Session Time | Medium | Aggregation, CASE, Date | [View](./10352_users_by_avg_session_time.sql) |
+| 5 | 2007 | Rank Variance Per Country | Hard | CTE, Window Functions, Ranking | [View](./2007_rank_variance_per_country.sql) |
 
 ---
 
@@ -51,6 +52,7 @@ stratascratch-sql-solutions/
 ├── 10299_finding_updated_records.sql
 ├── 10285_acceptance_rate_by_date.sql
 ├── 10352_users_by_avg_session_time.sql
+├── 2007_rank_variance_per_country.sql
 ├── README.md
 ```
 
@@ -66,7 +68,7 @@ stratascratch-sql-solutions/
 For each problem, I follow a structured workflow:
 
 1. **Understand** → Identify the business problem  
-2. **Plan** → Choose the right SQL concepts (JOIN, GROUP BY, etc.)  
+2. **Plan** → Choose the right SQL concepts (JOIN, GROUP BY, CTEs, etc.)  
 3. **Write** → Build a clean and readable query  
 4. **Optimise** → Improve performance and logic  
 5. **Document** → Add clear explanations for learning & revision  
