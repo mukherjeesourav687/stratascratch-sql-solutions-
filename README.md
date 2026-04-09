@@ -2,7 +2,7 @@
 
 > My solutions to StrataScratch SQL problems — focused on real-world, interview-style data questions.
 
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-6-blue)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-7-blue)
 ![Platform](https://img.shields.io/badge/Platform-StrataScratch-orange)
 ![Language](https://img.shields.io/badge/Language-SQL-lightgrey)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
@@ -42,6 +42,7 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 | 4 | 10352 | Users By Average Session Time | Medium | Aggregation, CASE, Date | [View](./10352_users_by_avg_session_time.sql) |
 | 5 | 2007 | Rank Variance Per Country | Hard | CTE, Window Functions, Ranking | [View](./2007_rank_variance_per_country.sql) |
 | 6 | 10322 | Finding User Purchases | Medium | CTE, Date Functions | [View](./10322_finding_user_purchases.sql) |
+| 7 | 10183 | Total Cost Of Orders | Easy | JOIN, Aggregation | [View](./10183_total_cost_of_orders.sql) |
 
 ---
 
@@ -55,6 +56,7 @@ stratascratch-sql-solutions/
 ├── 10352_users_by_avg_session_time.sql
 ├── 2007_rank_variance_per_country.sql
 ├── 10322_finding_user_purchases.sql
+├── 10183_total_cost_of_orders.sql
 ├── README.md
 ```
 
