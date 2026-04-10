@@ -2,7 +2,7 @@
 
 > My solutions to StrataScratch SQL problems — focused on real-world, interview-style data questions.
 
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-7-blue)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-8-blue)
 ![Platform](https://img.shields.io/badge/Platform-StrataScratch-orange)
 ![Language](https://img.shields.io/badge/Language-SQL-lightgrey)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
@@ -56,9 +56,10 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 
 ### 🔴 Hard
 
-| # | Problem ID | Problem Name              | Topic                          | Solution                                     |
-| - | ---------- | ------------------------- | ------------------------------ | -------------------------------------------- |
-| 7 | 2007       | Rank Variance Per Country | CTE, Window Functions, Ranking | [View](./2007_rank_variance_per_country.sql) |
+| # | Problem ID | Problem Name                  | Topic                                | Solution                                         |
+| - | ---------- | ----------------------------- | ------------------------------------ | ------------------------------------------------ |
+| 7 | 2007       | Rank Variance Per Country     | CTE, Window Functions, Ranking       | [View](./2007_rank_variance_per_country.sql)     |
+| 8 | 10319      | Monthly Percentage Difference | Aggregation, Self Join, Date Functions | [View](./10319_monthly_percentage_difference.sql) |
 
 ---
 
@@ -73,14 +74,15 @@ stratascratch-sql-solutions/
 ├── 2007_rank_variance_per_country.sql
 ├── 10322_finding_user_purchases.sql
 ├── 10183_total_cost_of_orders.sql
+├── 10319_monthly_percentage_difference.sql
 ├── README.md
 ```
 
 > Each `.sql` file includes:
 >
-> * Problem description
-> * Approach explanation
-> * Final optimised query
+> * Problem description  
+> * Approach explanation  
+> * Final optimised query  
 
 ---
 
@@ -88,11 +90,11 @@ stratascratch-sql-solutions/
 
 For each problem, I follow a structured workflow:
 
-1. **Understand** → Identify the business problem
-2. **Plan** → Choose the right SQL concepts (JOIN, GROUP BY, CTEs, etc.)
-3. **Write** → Build a clean and readable query
-4. **Optimise** → Improve performance and logic
-5. **Document** → Add clear explanations for learning & revision
+1. **Understand** → Identify the business problem  
+2. **Plan** → Choose the right SQL concepts (JOIN, GROUP BY, CTEs, etc.)  
+3. **Write** → Build a clean and readable query  
+4. **Optimise** → Improve performance and logic  
+5. **Document** → Add clear explanations for learning & revision  
 
 ---
 
@@ -100,8 +102,8 @@ For each problem, I follow a structured workflow:
 
 Solve a wide range of StrataScratch SQL problems across all difficulty levels and topics.
 
-**Target:** 100 problems
-**Focus:** Real-world analytics + interview readiness
+**Target:** 100 problems  
+**Focus:** Real-world analytics + interview readiness  
 
 ---
 
