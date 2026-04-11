@@ -2,7 +2,7 @@
 
 > My solutions to StrataScratch SQL problems — focused on real-world, interview-style data questions.
 
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-8-blue)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-9-blue)
 ![Platform](https://img.shields.io/badge/Platform-StrataScratch-orange)
 ![Language](https://img.shields.io/badge/Language-SQL-lightgrey)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
@@ -41,6 +41,7 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 | 1 | 10087      | Find all posts which were reacted to with a heart | SELECT, JOIN      | [View](./10087_find_posts_with_heart.sql)   |
 | 2 | 10299      | Finding Updated Records                           | Aggregation, JOIN | [View](./10299_finding_updated_records.sql) |
 | 3 | 10183      | Total Cost Of Orders                              | JOIN, Aggregation | [View](./10183_total_cost_of_orders.sql)    |
+| 4 | 9917       | Average Salaries                                  | Window Functions  | [View](./9917_average_salaries.sql)         |
 
 ---
 
@@ -48,18 +49,18 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 
 | # | Problem ID | Problem Name                  | Topic                   | Solution                                      |
 | - | ---------- | ----------------------------- | ----------------------- | --------------------------------------------- |
-| 4 | 10285      | Acceptance Rate By Date       | JOIN, Aggregation       | [View](./10285_acceptance_rate_by_date.sql)   |
-| 5 | 10352      | Users By Average Session Time | Aggregation, CASE, Date | [View](./10352_users_by_avg_session_time.sql) |
-| 6 | 10322      | Finding User Purchases        | CTE, Date Functions     | [View](./10322_finding_user_purchases.sql)    |
+| 5 | 10285      | Acceptance Rate By Date       | JOIN, Aggregation       | [View](./10285_acceptance_rate_by_date.sql)   |
+| 6 | 10352      | Users By Average Session Time | Aggregation, CASE, Date | [View](./10352_users_by_avg_session_time.sql) |
+| 7 | 10322      | Finding User Purchases        | CTE, Date Functions     | [View](./10322_finding_user_purchases.sql)    |
 
 ---
 
 ### 🔴 Hard
 
-| # | Problem ID | Problem Name                  | Topic                                | Solution                                         |
-| - | ---------- | ----------------------------- | ------------------------------------ | ------------------------------------------------ |
-| 7 | 2007       | Rank Variance Per Country     | CTE, Window Functions, Ranking       | [View](./2007_rank_variance_per_country.sql)     |
-| 8 | 10319      | Monthly Percentage Difference | Aggregation, Self Join, Date Functions | [View](./10319_monthly_percentage_difference.sql) |
+| # | Problem ID | Problem Name                  | Topic                                   | Solution                                         |
+| - | ---------- | ----------------------------- | --------------------------------------- | ------------------------------------------------ |
+| 8 | 2007       | Rank Variance Per Country     | CTE, Window Functions, Ranking          | [View](./2007_rank_variance_per_country.sql)     |
+| 9 | 10319      | Monthly Percentage Difference | Aggregation, Self Join, Date Functions  | [View](./10319_monthly_percentage_difference.sql) |
 
 ---
 
@@ -75,6 +76,7 @@ stratascratch-sql-solutions/
 ├── 10322_finding_user_purchases.sql
 ├── 10183_total_cost_of_orders.sql
 ├── 10319_monthly_percentage_difference.sql
+├── 9917_average_salaries.sql
 ├── README.md
 ```
 
