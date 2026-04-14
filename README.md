@@ -2,7 +2,7 @@
 
 > My solutions to StrataScratch SQL problems — focused on real-world, interview-style data questions.
 
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-11-blue)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-12-blue)
 ![Platform](https://img.shields.io/badge/Platform-StrataScratch-orange)
 ![Language](https://img.shields.io/badge/Language-SQL-lightgrey)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
@@ -54,6 +54,7 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 | 7 | 10322      | Finding User Purchases            | CTE, Date Functions         | [View](./10322_finding_user_purchases.sql)    |
 | 8 | 10304      | Risky Projects                   | JOIN, Aggregation, Date     | [View](./10304_risky_projects.sql)            |
 | 9 | 10159      | Ranking Most Active Guests        | Window Functions, Ranking   | [View](./10159_ranking_most_active_guests.sql)|
+| 10 | 10156     | Number Of Units Per Nationality   | JOIN, DISTINCT, Aggregation | [View](./10156_number_of_units_per_nationality.sql)|
 
 ---
 
@@ -61,8 +62,8 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 
 | # | Problem ID | Problem Name                  | Topic                                   | Solution                                         |
 |---|------------|-----------------------------|-----------------------------------------|--------------------------------------------------|
-| 10 | 2007      | Rank Variance Per Country     | CTE, Window Functions, Ranking          | [View](./2007_rank_variance_per_country.sql)     |
-| 11 | 10319     | Monthly Percentage Difference | Aggregation, Self Join, Date Functions  | [View](./10319_monthly_percentage_difference.sql)|
+| 11 | 2007      | Rank Variance Per Country     | CTE, Window Functions, Ranking          | [View](./2007_rank_variance_per_country.sql)     |
+| 12 | 10319     | Monthly Percentage Difference | Aggregation, Self Join, Date Functions  | [View](./10319_monthly_percentage_difference.sql)|
 
 ---
 
@@ -80,6 +81,7 @@ stratascratch-sql-solutions/
 ├── 9917_average_salaries.sql
 ├── 10304_risky_projects.sql
 ├── 10159_ranking_most_active_guests.sql
+├── 10156_number_of_units_per_nationality.sql
 ├── README.md
 
 ---
