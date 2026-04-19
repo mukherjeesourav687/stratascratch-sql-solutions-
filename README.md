@@ -2,7 +2,7 @@
 
 > My solutions to StrataScratch SQL problems — focused on real-world, interview-style data questions.
 
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-16-blue)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-17-blue)
 ![Platform](https://img.shields.io/badge/Platform-StrataScratch-orange)
 ![Language](https://img.shields.io/badge/Language-SQL-lightgrey)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
@@ -59,6 +59,7 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 | 12 | 10077     | Income By Title and Gender        | JOIN, Aggregation, Subquery | [View](./10077_income_by_title_and_gender.sql)|
 | 13 | 10060     | Top Cool Votes                    | Subquery, Filtering         | [View](./10060_top_cool_votes.sql)|
 | 14 | 10049     | Reviews of Categories             | String Split, Aggregation   | [View](./10049_reviews_of_categories.sql)|
+| 15 | 9897      | Highest Salary In Department      | Subquery, Window Functions  | [View](./9897_highest_salary_in_department.sql)|
 
 ---
 
@@ -66,8 +67,8 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 
 | # | Problem ID | Problem Name                  | Topic                                   | Solution                                         |
 |---|------------|-----------------------------|-----------------------------------------|--------------------------------------------------|
-| 15 | 2007      | Rank Variance Per Country     | CTE, Window Functions, Ranking          | [View](./2007_rank_variance_per_country.sql)     |
-| 16 | 10319     | Monthly Percentage Difference | Aggregation, Self Join, Date Functions  | [View](./10319_monthly_percentage_difference.sql)|
+| 16 | 2007      | Rank Variance Per Country     | CTE, Window Functions, Ranking          | [View](./2007_rank_variance_per_country.sql)     |
+| 17 | 10319     | Monthly Percentage Difference | Aggregation, Self Join, Date Functions  | [View](./10319_monthly_percentage_difference.sql)|
 
 ---
 
@@ -90,6 +91,7 @@ stratascratch-sql-solutions/
 ├── 10060_top_cool_votes.sql
 ├── 10049_reviews_of_categories.sql
 ├── 9913_order_details.sql
+├── 9897_highest_salary_in_department.sql
 ├── README.md
 
 ---
@@ -99,10 +101,10 @@ stratascratch-sql-solutions/
 For each problem, I follow a structured workflow:
 
 1. Understand → Identify the business problem  
-2. Plan → Choose the right SQL concepts (JOIN, GROUP BY, CTEs, etc.)  
+2. Plan → Choose the right SQL concepts  
 3. Write → Build a clean and readable query  
 4. Optimise → Improve performance and logic  
-5. Document → Add clear explanations for learning & revision  
+5. Document → Add clear explanations  
 
 ---
 
@@ -116,8 +118,6 @@ Focus: Real-world analytics + interview readiness
 ---
 
 ## 🔗 Connect
-
-If you're also practising SQL or preparing for data roles, let's connect:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sourav%20Mukherjee-blue?logo=linkedin)](https://www.linkedin.com/in/mukherjeesourav687)
 
