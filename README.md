@@ -2,7 +2,7 @@
 
 > My solutions to StrataScratch SQL problems — focused on real-world, interview-style data questions.
 
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-18-blue)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-19-blue)
 ![Platform](https://img.shields.io/badge/Platform-StrataScratch-orange)
 ![Language](https://img.shields.io/badge/Language-SQL-lightgrey)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
@@ -60,6 +60,7 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 | 13 | 10060     | Top Cool Votes                    | Subquery, Filtering         | [View](./10060_top_cool_votes.sql)|
 | 14 | 10049     | Reviews of Categories             | String Split, Aggregation   | [View](./10049_reviews_of_categories.sql)|
 | 15 | 9897      | Highest Salary In Department      | Subquery, Window Functions  | [View](./9897_highest_salary_in_department.sql)|
+| 16 | 10090     | Percentage of Shipable Orders     | JOIN, CASE, Aggregation     | [View](./10090_percentage_of_shipable_orders.sql)|
 
 ---
 
@@ -67,9 +68,9 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 
 | # | Problem ID | Problem Name                  | Topic                                   | Solution                                         |
 |---|------------|-----------------------------|-----------------------------------------|--------------------------------------------------|
-| 16 | 2007      | Rank Variance Per Country     | CTE, Window Functions, Ranking          | [View](./2007_rank_variance_per_country.sql)     |
-| 17 | 10319     | Monthly Percentage Difference | Aggregation, Self Join, Date Functions  | [View](./10319_monthly_percentage_difference.sql)|
-| 18 | 10172     | Best Selling Item             | CTE, Aggregation, Ranking               | [View](./10172_best_selling_item.sql)|
+| 17 | 2007      | Rank Variance Per Country     | CTE, Window Functions, Ranking          | [View](./2007_rank_variance_per_country.sql)     |
+| 18 | 10319     | Monthly Percentage Difference | Aggregation, Self Join, Date Functions  | [View](./10319_monthly_percentage_difference.sql)|
+| 19 | 10172     | Best Selling Item             | CTE, Aggregation, Ranking               | [View](./10172_best_selling_item.sql)|
 
 ---
 
@@ -94,6 +95,7 @@ stratascratch-sql-solutions/
 ├── 9913_order_details.sql
 ├── 9897_highest_salary_in_department.sql
 ├── 10172_best_selling_item.sql
+├── 10090_percentage_of_shipable_orders.sql
 ├── README.md
 
 ---
