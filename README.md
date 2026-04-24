@@ -2,7 +2,7 @@
 
 > My solutions to StrataScratch SQL problems — focused on real-world, interview-style data questions.
 
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-21-blue)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-22-blue)
 ![Platform](https://img.shields.io/badge/Platform-StrataScratch-orange)
 ![Language](https://img.shields.io/badge/Language-SQL-lightgrey)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
@@ -53,7 +53,7 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 | 6 | 10285      | Acceptance Rate By Date           | JOIN, Aggregation           | [View](./10285_acceptance_rate_by_date.sql)   |
 | 7 | 10352      | Users By Average Session Time     | Aggregation, CASE, Date     | [View](./10352_users_by_avg_session_time.sql) |
 | 8 | 10322      | Finding User Purchases            | CTE, Date Functions         | [View](./10322_finding_user_purchases.sql)    |
-| 9 | 10304      | Risky Projects                   | JOIN, Aggregation, Date     | [View](./10304_risky_projects.sql)            |
+| 9 | 10304      | Risky Projects                    | JOIN, Aggregation, Date     | [View](./10304_risky_projects.sql)            |
 | 10 | 10159     | Ranking Most Active Guests        | Window Functions, Ranking   | [View](./10159_ranking_most_active_guests.sql)|
 | 11 | 10156     | Number Of Units Per Nationality   | JOIN, DISTINCT, Aggregation | [View](./10156_number_of_units_per_nationality.sql)|
 | 12 | 10077     | Income By Title and Gender        | JOIN, Aggregation, Subquery | [View](./10077_income_by_title_and_gender.sql)|
@@ -73,6 +73,7 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 | 19 | 10319     | Monthly Percentage Difference | Aggregation, Self Join, Date Functions  | [View](./10319_monthly_percentage_difference.sql)|
 | 20 | 10172     | Best Selling Item             | CTE, Aggregation, Ranking               | [View](./10172_best_selling_item.sql)|
 | 21 | 9814      | Counting Instances in Text    | Regex, String Functions, Aggregation    | [View](./9814_counting_instances_in_text.sql)|
+| 22 | 2054      | Consecutive Days              | Window Functions, Date Logic            | [View](./2054_consecutive_days.sql)|
 
 ---
 
@@ -100,6 +101,7 @@ stratascratch-sql-solutions/
 ├── 10090_percentage_of_shipable_orders.sql
 ├── 10078_matching_similar_hosts_and_guests.sql
 ├── 9814_counting_instances_in_text.sql
+├── 2054_consecutive_days.sql
 ├── README.md
 
 ---
