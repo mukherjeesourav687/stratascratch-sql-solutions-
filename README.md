@@ -2,7 +2,7 @@
 
 > My solutions to StrataScratch SQL problems — focused on real-world, interview-style data questions.
 
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-23-blue)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-24-blue)
 ![Platform](https://img.shields.io/badge/Platform-StrataScratch-orange)
 ![Language](https://img.shields.io/badge/Language-SQL-lightgrey)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
@@ -63,6 +63,7 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 | 16 | 10090     | Percentage of Shipable Orders     | JOIN, CASE, Aggregation     | [View](./10090_percentage_of_shipable_orders.sql)|
 | 17 | 10078     | Matching Similar Hosts and Guests | JOIN, Filtering             | [View](./10078_matching_similar_hosts_and_guests.sql)|
 | 18 | 9817      | Count Occurrences Of Words In Drafts | Recursive CTE, String Processing | [View](./9817_count_occurrences_of_words_in_drafts.sql)|
+| 19 | 10130     | Inspections by Risk Category      | CTE, CASE, Aggregation      | [View](./10130_inspections_by_risk_category.sql)|
 
 ---
 
@@ -70,11 +71,11 @@ The goal is to strengthen practical SQL skills by solving business-oriented, rea
 
 | # | Problem ID | Problem Name                  | Topic                                   | Solution                                         |
 |---|------------|-----------------------------|-----------------------------------------|--------------------------------------------------|
-| 19 | 2007      | Rank Variance Per Country     | CTE, Window Functions, Ranking          | [View](./2007_rank_variance_per_country.sql)     |
-| 20 | 10319     | Monthly Percentage Difference | Aggregation, Self Join, Date Functions  | [View](./10319_monthly_percentage_difference.sql)|
-| 21 | 10172     | Best Selling Item             | CTE, Aggregation, Ranking               | [View](./10172_best_selling_item.sql)|
-| 22 | 9814      | Counting Instances in Text    | Regex, String Functions, Aggregation    | [View](./9814_counting_instances_in_text.sql)|
-| 23 | 2054      | Consecutive Days              | Window Functions, Date Logic            | [View](./2054_consecutive_days.sql)|
+| 20 | 2007      | Rank Variance Per Country     | CTE, Window Functions, Ranking          | [View](./2007_rank_variance_per_country.sql)     |
+| 21 | 10319     | Monthly Percentage Difference | Aggregation, Self Join, Date Functions  | [View](./10319_monthly_percentage_difference.sql)|
+| 22 | 10172     | Best Selling Item             | CTE, Aggregation, Ranking               | [View](./10172_best_selling_item.sql)|
+| 23 | 9814      | Counting Instances in Text    | Regex, String Functions, Aggregation    | [View](./9814_counting_instances_in_text.sql)|
+| 24 | 2054      | Consecutive Days              | Window Functions, Date Logic            | [View](./2054_consecutive_days.sql)|
 
 ---
 
@@ -104,6 +105,7 @@ stratascratch-sql-solutions/
 ├── 9814_counting_instances_in_text.sql
 ├── 9817_count_occurrences_of_words_in_drafts.sql
 ├── 2054_consecutive_days.sql
+├── 10130_inspections_by_risk_category.sql
 ├── README.md
 
 ---
